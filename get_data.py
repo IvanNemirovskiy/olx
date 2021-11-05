@@ -2,7 +2,6 @@ from bs4 import BeautifulSoup
 import requests
 
 req = requests.get("https://www.olx.ua/uk/nedvizhimost/kvartiry/kiev/", 'html.parser').text
-
 with open('olx.html', 'w') as save_file:
     save_file.write(req)
 
