@@ -3,7 +3,7 @@ name: 'Deploy Data Propagation Service'
 on:
   push:
     branches:
-    - develop
+    - main
 
 jobs:
   terraform:
